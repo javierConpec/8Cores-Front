@@ -87,7 +87,7 @@ const SpecsSubCatDropdown: React.FC<Props> = ({ subCategoryId, onSelect }) => {
 
             {isOpen[spec.name] && (
               <ul className="relative left-0 w-full bg-background-0 dark:bg-background-100  max-h-48 overflow-auto p-2 ">
-                {spec.values.map((value, index) => (
+                {spec.values.map((value: string, index: number) => (
                   <li
                     key={`${spec.name}-${index}`}
                     className="flex items-center gap-2 px-3 py-1 cursor-pointer text-text-900 hover:bg-primary-100 rounded"

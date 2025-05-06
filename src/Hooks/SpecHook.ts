@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Ispecs, IspecsSubCategory } from "../Interfaces/Specs";
+import { Ispecs, IspecsSubCategory } from "../Interfaces/specs";
 import {
   getSpecsByProduct,
   getSpecsBySubCategory,
