@@ -1,6 +1,6 @@
 import { fetchData } from "../Helpers/PeticionApi";
-import { IInvoice } from "../Interfaces/Invoices";
-import { IGenerateInvoice } from "../Interfaces/Invoices";
+import { IInvoice } from "../Interfaces/invoices";
+import { IGenerateInvoice } from "../Interfaces/invoices";
 
 export const validateInvoiceService = async (
   person: string,

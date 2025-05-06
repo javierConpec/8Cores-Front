@@ -1,12 +1,12 @@
-import { Iproduct } from "../../../Interfaces/Product";
+import { Iproduct } from "../../../Interfaces/product";
 import { useNavigate } from "react-router-dom";
 import { calculateDiscount } from "../../../Helpers/CalculateDiscount";
 import Button from "../../../Components/Button/Button";
 import { ShoppingBag } from "lucide-react";
-import { useCart } from "../../../Contexts/CartContextType";
-import { IAddCart } from "../../../Interfaces/Cart";
+import { useCart } from "../../../Contexts/cartContextType";
+import { IAddCart } from "../../../Interfaces/cart";
 import { useAuth } from "../../../Contexts/AuthContext";
-import { useToast } from "../../../Contexts/ToastContext";
+import { useToast } from "../../../Contexts/toastContext";
 import { useStatByProduct } from "../../../Hooks/ReseñaHook";
 
 interface Props {

@@ -3,7 +3,7 @@ import ProductListByCat from "../layouts/Card/Product/ProductListByCat";
 import SidebaPropiedad from "../layouts/Sidebar/PropiedadSid";
 import { useParams } from "react-router-dom";
 import { useProductBySub } from "../Hooks/ProductHook";
-import { Iproduct } from "../Interfaces/Product";
+import { Iproduct } from "../Interfaces/product";
 import NavbarPropiedad from "../layouts/Navbar/PropiedadMobileNabvar";
 
 const ProductsBySub = () => {

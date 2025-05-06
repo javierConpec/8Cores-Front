@@ -7,7 +7,7 @@ import SidebarCart from "./Sidebar/CarritoSid";
 import SearchComponent from "../Components/Search/SearchComponent";
 import CartIcon from "../Components/Cart/CartIcon";
 import AuthDropdown from "../Components/Dropdown/AuthDropdown";
-import { useCart } from "../Contexts/CartContextType";
+import { useCart } from "../Contexts/cartContextType";
 import { useAuth } from "../Contexts/AuthContext";
 import MobileSidebar from "./Sidebar/MobileSid";
 

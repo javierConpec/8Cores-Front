@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { X, Trash, HandCoins } from "lucide-react";
-import { useCart } from "../../Contexts/CartContextType";
-import Counter from "../../Components/Cart/Counter";
+import { useCart } from "../../Contexts/cartContextType";
+import Counter from "../../Components/Cart/counter";
 import Button from "../../Components/Button/Button";
 
 const SidebarCart = ({

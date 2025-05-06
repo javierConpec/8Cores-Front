@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useValidateInvoice } from "../Hooks/InvoiceHook";
 import { useInvoice } from "../Hooks/InvoiceHook";
-import InfinityLoader from "../Helpers/Loader";
+import InfinityLoader from "../Helpers/loader";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import Button from "../Components/Button/Button";

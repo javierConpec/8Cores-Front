@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ChevronDown, FileText } from "lucide-react";
 import { useDocuments } from "../../Hooks/DocumentHook";
-import { IDocuments } from "../../Interfaces/Documents";
+import { IDocuments } from "../../Interfaces/documents";
 
 interface DocumentDropdownProps {
   onSelect: (selected: IDocuments) => void;

@@ -5,7 +5,7 @@ import {
   IResponseComment,
   IStatsByProduct,
   IValidateResponse,
-} from "../Interfaces/Reseña";
+} from "../Interfaces/reseña";
 import {
   getComments,
   getStats,

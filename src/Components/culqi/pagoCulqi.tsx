@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import { client, getsettings, options } from "./ConfigCulqi";
-import { appearance } from "./ConfigUI";
-import { closeCheckOut } from "../../Services/CartService";
+import { client, getsettings, options } from "./configCulqi";
+import { appearance } from "./configUI";
+import { closeCheckOut } from "../../Services/cartService";
 import { useAuth } from "../../Contexts/AuthContext";
-import { useToast } from "../../Contexts/ToastContext";
-import { IGenerateInvoice } from "../../Interfaces/Invoices";
+import { useToast } from "../../Contexts/toastContext";
+import { IGenerateInvoice } from "../../Interfaces/invoices";
 import { generateInvoice } from "../../Services/InvoiceService";
 
 declare global {

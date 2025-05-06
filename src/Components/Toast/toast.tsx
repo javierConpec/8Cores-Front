@@ -1,5 +1,5 @@
 import { AlertTriangle, CheckCircle, Info, XCircle } from "lucide-react";
-import { ToastProps } from "../../Interfaces/Toast";
+import { ToastProps } from "../../Interfaces/toast";
 import React, { useEffect } from "react";
 
 const icons = {

@@ -1,5 +1,5 @@
 import { fetchData } from "../Helpers/PeticionApi";
-import { IAuthLogin, IAuthLogueado, IAuthRegister, IAuthResponse, IUpdateUser, IUser } from "../Interfaces/Auth";
+import { IAuthLogin, IAuthLogueado, IAuthRegister, IAuthResponse, IUpdateUser, IUser } from "../Interfaces/auth";
 
 // Función auxiliar para manejar el token en localStorage
 const setToken = (token: string) => localStorage.setItem("token", token);

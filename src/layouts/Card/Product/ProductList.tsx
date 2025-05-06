@@ -1,7 +1,7 @@
 import { useProduct } from "../../../Hooks/ProductHook";
-import { filterProducts } from "../../../Helpers/FilterProduct";
+import { filterProducts } from "../../../Helpers/filterProduct";
 import ProductCard from "./ProductCard";
-import { Iproduct } from "../../../Interfaces/Product";
+import { Iproduct } from "../../../Interfaces/product";
 
 interface ProductListProps {
   title?: string;

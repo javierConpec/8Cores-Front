@@ -1,4 +1,4 @@
-import { Iproduct } from "../Interfaces/Product";
+import { Iproduct } from "../Interfaces/product";
 import { calculateDiscount } from "./CalculateDiscount"; // Importamos la función existente
 
 /**

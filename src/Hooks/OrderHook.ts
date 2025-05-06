@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { IResponseOrder } from "../Interfaces/Order";
-import { getOrders } from "../Services/OrderService";
+import { IResponseOrder } from "../Interfaces/order";
+import { getOrders } from "../Services/orderService";
 
 export const useOrders = (personId: string | null) => {
   const [order, setOrder] = useState<IResponseOrder[]>([]);

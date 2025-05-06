@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getInvoice, validateInvoiceService } from "../Services/InvoiceService";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAuth } from "../Contexts/AuthContext";
-import { IInvoice } from "../Interfaces/Invoices";
+import { IInvoice } from "../Interfaces/invoices";
 
 // Validar Invoice con retraso de 5 segundos
 export const useValidateInvoice = () => {

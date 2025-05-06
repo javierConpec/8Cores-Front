@@ -1,4 +1,4 @@
-import { IPrices } from "./Price"
+import { IPrices } from "./price"
 
 export interface ICartProduct {
     personid: string;

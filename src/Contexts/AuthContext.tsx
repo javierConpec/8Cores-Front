@@ -10,7 +10,7 @@ import {
   intoEmailValidate,
   UserByID,
 } from "../Services/AuthService";
-import { IAuthLogueado, IUser } from "../Interfaces/Auth";
+import { IAuthLogueado, IUser } from "../Interfaces/auth";
 
 interface AuthContextType {
   user: IAuthLogueado["data"] | null;

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { ICategory } from "../../../Interfaces/Category";
+import { ICategory } from "../../../Interfaces/category";
 
 interface Props {
   category: ICategory;

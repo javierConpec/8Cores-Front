@@ -12,9 +12,9 @@ import {
   getCartByPerson,
   postCart,
   vaciarCart,
-} from "../Services/CartService";
-import { IAddCart, IEditCart, IListCart } from "../Interfaces/Cart";
-import { getProductByID } from "../Services/ProductService";
+} from "../Services/cartService";
+import { IAddCart, IEditCart, IListCart } from "../Interfaces/cart";
+import { getProductByID } from "../Services/productService";
 
 export const CART = "cart_items";
 

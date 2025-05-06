@@ -1,5 +1,5 @@
 import CartSummary from "../layouts/Card/resumen/CartSumary";
-import ResumenCart from "../layouts/Table/ResumenCart";
+import ResumenCart from "../layouts/Table/resumenCart";
 
 const resumen = () => {
     return (

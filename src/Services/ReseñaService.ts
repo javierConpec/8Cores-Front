@@ -1,5 +1,5 @@
 import { fetchData } from "../Helpers/PeticionApi";
-import { ICommentByProduct, IPostComment, IResponseComment, IStatsByProduct, IValidate, IValidateResponse } from "../Interfaces/Reseña";
+import { ICommentByProduct, IPostComment, IResponseComment, IStatsByProduct, IValidate, IValidateResponse } from "../Interfaces/reseña";
 
 export const getStats = (productId:string)=>fetchData<IStatsByProduct>
 (`/api/v1/comments/product/${productId}/stats`,"GET")

@@ -1,4 +1,4 @@
-import { IAuthLogin } from "../Interfaces/Auth";
+import { IAuthLogin } from "../Interfaces/auth";
 import AuthForm from "../layouts/Form/AuthForm";
 
 const Login = () => {

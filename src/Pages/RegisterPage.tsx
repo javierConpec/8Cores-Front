@@ -1,4 +1,4 @@
-import { IAuthRegister } from "../Interfaces/Auth";
+import { IAuthRegister } from "../Interfaces/auth";
 import AuthForm from "../layouts/Form/AuthForm";
 
 const Register = () => {

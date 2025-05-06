@@ -1,4 +1,4 @@
-import { IAddCartResponse, IEditCart, IEditcartResponse, IListCart } from "../Interfaces/Cart";
+import { IAddCartResponse, IEditCart, IEditcartResponse, IListCart } from "../Interfaces/cart";
 import { fetchData } from "../Helpers/PeticionApi";
 
 export const getCartByPerson = async (personId: string): Promise<IListCart[]> => {

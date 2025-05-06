@@ -2,20 +2,20 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useProductByID } from "../Hooks/ProductHook";
 import ProductImageGallery from "./Carrusel/ProductCarrusel";
 import { Store, ShoppingBag, HandCoins } from "lucide-react";
-import Counter from "../Components/Cart/Counter";
-import InfinityLoader from "../Helpers/Loader";
+import Counter from "../Components/Cart/counter";
+import InfinityLoader from "../Helpers/loader";
 import Button from "../Components/Button/Button";
 import { useState } from "react";
 import ProductSpecs from "./Table/ProductSpecs";
 import { useSpecsByProduct } from "../Hooks/SpecHook";
 import ProductList from "./Card/Product/ProductList";
-import { useCart } from "../Contexts/CartContextType";
+import { useCart } from "../Contexts/cartContextType";
 import { useAuth } from "../Contexts/AuthContext";
-import { IAddCart } from "../Interfaces/Cart";
-import ProductStats from "./reseseña/State";
-import ProductComments from "./reseseña/Comments";
-import IntoReseña from "./reseseña/Reseña";
-import { useToast } from "../Contexts/ToastContext";
+import { IAddCart } from "../Interfaces/cart";
+import ProductStats from "./reseseña/state";
+import ProductComments from "./reseseña/comments";
+import IntoReseña from "./reseseña/reseña";
+import { useToast } from "../Contexts/toastContext";
 
 const DetailP = () => {
   const { id } = useParams();

@@ -1,8 +1,8 @@
 import { HandCoins, OctagonX } from "lucide-react";
 import Button from "../../../Components/Button/Button";
-import { useCart } from "../../../Contexts/CartContextType";
+import { useCart } from "../../../Contexts/cartContextType";
 import { useCheckout } from "../../../Hooks/CheckOutHook";
-import { useCulqiCheckout } from "../../../Components/culqi/PagoCulqi";
+import { useCulqiCheckout } from "../../../Components/culqi/pagoCulqi";
 import { useAuth } from "../../../Contexts/AuthContext";
 import Modal from "../../../Components/Modal/Modal";
 import { useState } from "react";

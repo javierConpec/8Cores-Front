@@ -1,5 +1,5 @@
 import { useAuth } from "../Contexts/AuthContext";
-import { startCheckOut } from "../Services/CartService";
+import { startCheckOut } from "../Services/cartService";
 
 export const useCheckout = () => {
   const { user } = useAuth();

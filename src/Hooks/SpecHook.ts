@@ -3,7 +3,7 @@ import { Ispecs, IspecsSubCategory } from "../Interfaces/Specs";
 import {
   getSpecsByProduct,
   getSpecsBySubCategory,
-} from "../Services/SpecsService";
+} from "../Services/specsService";
 
 export const useSpecsByProduct = (productId: string | null) => {
   const [specsProduct, setspecsProduct] = useState<Ispecs[]>([]);

@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { IBanner } from "../Interfaces/Banners";
+import { IBanner } from "../Interfaces/banners";
 import {
   getProductByPromotion,
   getPromotion,
 } from "../Services/PromotionService";
-import { Iproduct } from "../Interfaces/Product";
+import { Iproduct } from "../Interfaces/product";
 
 export const usePromotion = () => {
   const [promotions, setPromotions] = useState<IBanner[]>([]);

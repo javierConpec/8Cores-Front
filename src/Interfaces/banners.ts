@@ -1,4 +1,4 @@
-import { Iimage } from "./Image";
+import { Iimage } from "./image";
 
 export interface IPromotion{
     uuid:number;

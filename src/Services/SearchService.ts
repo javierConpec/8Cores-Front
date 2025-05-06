@@ -1,5 +1,5 @@
 import { fetchData } from "../Helpers/PeticionApi";
-import { Iproduct } from "../Interfaces/Product";
+import { Iproduct } from "../Interfaces/product";
 
 export const searchProducts = async (term: string): Promise<Iproduct[]> => {
   try {

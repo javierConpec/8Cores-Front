@@ -1,4 +1,4 @@
-import { ICategory, ISubcategory } from "../Interfaces/Category";
+import { ICategory, ISubcategory } from "../Interfaces/category";
 import { fetchData } from "../Helpers/PeticionApi";
 
 

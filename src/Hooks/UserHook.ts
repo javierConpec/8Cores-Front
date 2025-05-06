@@ -12,10 +12,10 @@ import {
   IAuthLogueado,
   IAuthRegister,
   IUpdateUser,
-} from "../Interfaces/Auth";
-import { syncCart } from "../Services/CartService";
-import { CART } from "../Contexts/CartContextType";
-import { IListCart } from "../Interfaces/Cart";
+} from "../Interfaces/auth";
+import { syncCart } from "../Services/cartService";
+import { CART } from "../Contexts/cartContextType";
+import { IListCart } from "../Interfaces/cart";
 import { useNavigate } from "react-router-dom";
 
 export const useAuth = () => {

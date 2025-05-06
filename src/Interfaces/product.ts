@@ -1,5 +1,5 @@
-import { ICategory, ISubcategory } from "./Category";
-import { IPrices } from "./Price";
+import { ICategory, ISubcategory } from "./category";
+import { IPrices } from "./price";
 
 export interface Iproduct {
     id: string;

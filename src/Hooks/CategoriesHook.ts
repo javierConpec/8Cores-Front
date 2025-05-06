@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getCategories, getSubCategories } from "../Services/CategoryService";
-import { ICategory, ISubcategory } from "../Interfaces/Category";
+import { ICategory, ISubcategory } from "../Interfaces/category";
 
 export const useCategories = () => {
   const [categories, setCategories] = useState<ICategory[]>([]);

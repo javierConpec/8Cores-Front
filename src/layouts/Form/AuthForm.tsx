@@ -4,13 +4,13 @@ import * as Yup from "yup";
 import { useAuth } from "../../Hooks/UserHook";
 import DocumentDropdown from "../../Components/Dropdown/DocumentsDropdown";
 import Input from "../../Components/Input/Input1";
-import Input2 from "../../Components/Input/Input2";
+import Input2 from "../../Components/Input/input2";
 import Button from "../../Components/Button/Button";
 import { Mail, Lock, User, FileText, Phone } from "lucide-react";
 import { useState } from "react";
-import PasswordReset from "../Card/user/PassReset";
-import { IAuthLogin, IAuthRegister } from "../../Interfaces/Auth";
-import { useToast } from "../../Contexts/ToastContext";
+import PasswordReset from "../Card/user/passReset";
+import { IAuthLogin, IAuthRegister } from "../../Interfaces/auth";
+import { useToast } from "../../Contexts/toastContext";
 
 interface RegisterProps {
   type: "register";

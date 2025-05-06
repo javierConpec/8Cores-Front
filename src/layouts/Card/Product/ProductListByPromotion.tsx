@@ -4,7 +4,7 @@ import {
   usePromotion,
 } from "../../../Hooks/PromotionHook";
 import ProductCard from "./ProductCard";
-import InfinityLoader from "../../../Helpers/Loader";
+import InfinityLoader from "../../../Helpers/loader";
 import { useParams } from "react-router-dom";
 
 interface ProductListOnSaleProps {

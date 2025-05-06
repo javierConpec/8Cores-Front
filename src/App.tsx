@@ -1,22 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
-import Navbar from "./layouts/Navbar";
-import Footer from "./layouts/footer/Footer"; // Importa el footer
+import Navbar from "./layouts/navbar";
+import Footer from "./layouts/footer/footer"; // Importa el footer
 import Login from "./Pages/LoginPage";
 import Register from "./Pages/RegisterPage";
 import Home from "./Pages/HomePage";
 import DetailProduct from "./Pages/DatailProductPage";
-import { CartProvider } from "./Contexts/CartContextType";
+import { CartProvider } from "./Contexts/cartContextType";
 import { AuthProvider } from "./Contexts/AuthContext";
-import { SearchProvider } from "./Contexts/SearchContext";
+import { SearchProvider } from "./Contexts/searchContext";
 import ProductsBySub from "./Pages/ProductsBySubPage";
 import Resumen from "./Pages/ResumenPage";
 import ResetPassword from "./layouts/Form/ChangePasForm";
-import Profile from "./layouts/Form/UpdateAuthForm";
-import OrdersList from "./layouts/Orders";
+import Profile from "./layouts/Form/updateAuthForm";
+import OrdersList from "./layouts/orders";
 import PageProductPromotion from "./Pages/ProductByPromotionPage";
 import InvoicePage from "./Pages/InvoicePage";
-import { ToastProvider } from "./Contexts/ToastContext";
+import { ToastProvider } from "./Contexts/toastContext";
 import { AboutUS } from "./Pages/AboutUsPage";
 import { Contact } from "./Pages/ContactPage";
 import PolíticasYTerminos from "./Pages/PoliticasYTerminosPage";

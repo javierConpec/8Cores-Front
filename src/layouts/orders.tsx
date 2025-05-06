@@ -1,6 +1,6 @@
 import { useAuth } from "../Contexts/AuthContext";
 import { useOrders } from "../Hooks/OrderHook";
-import InfinityLoader from "../Helpers/Loader";
+import InfinityLoader from "../Helpers/loader";
 import SidebarAuth from "./Sidebar/AuthSid";
 
 const OrdersList = () => {

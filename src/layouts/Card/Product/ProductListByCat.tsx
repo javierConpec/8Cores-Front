@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
-import { IProductFilter } from "../../../Interfaces/Product";
+import { IProductFilter } from "../../../Interfaces/product";
 import { useProductsByFilter } from "../../../Hooks/ProductHook";
-import InfinityLoader from "../../../Helpers/Loader";
+import InfinityLoader from "../../../Helpers/loader";
 interface Props {
   subCategoryId: string;
   filter: IProductFilter;

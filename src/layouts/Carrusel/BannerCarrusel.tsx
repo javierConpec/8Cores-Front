@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { usePromotion } from "../../Hooks/PromotionHook";
 import { useNavigate } from "react-router-dom";
-import InfinityLoader from "../../Helpers/Loader";
+import InfinityLoader from "../../Helpers/loader";
 
 const BannerCarrusel = () => {
   const sliderRef = useRef<Slider | null>(null);

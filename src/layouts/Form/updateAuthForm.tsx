@@ -1,7 +1,7 @@
 import { useAuth } from "../../Contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { IUser, IUpdateUser } from "../../Interfaces/Auth";
+import { IUser, IUpdateUser } from "../../Interfaces/auth";
 import Input from "../../Components/Input/Input1";
 import { useUpdateUser } from "../../Hooks/UserHook";
 import {
@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import Button from "../../Components/Button/Button";
 import { useDeleteUser } from "../../Hooks/UserHook";
-import InfinityLoader from "../../Helpers/Loader";
+import InfinityLoader from "../../Helpers/loader";
 import Modal from "../../Components/Modal/Modal";
 import SidebarAuth from "../Sidebar/AuthSid";
 

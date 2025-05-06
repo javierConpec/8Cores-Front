@@ -1,4 +1,4 @@
-import { IPromotion } from "../../Interfaces/Banners";
+import { IPromotion } from "../../Interfaces/banners";
 
 interface Props {
   banners: IPromotion[];

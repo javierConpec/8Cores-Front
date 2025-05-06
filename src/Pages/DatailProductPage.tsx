@@ -1,4 +1,4 @@
-import DetailP from "../layouts/Detail";
+import DetailP from "../layouts/detail";
 
 const DetailProduct = () => {
   return (

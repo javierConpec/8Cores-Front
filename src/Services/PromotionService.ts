@@ -1,6 +1,6 @@
 import { fetchData } from "../Helpers/PeticionApi";
-import { IBanner} from "../Interfaces/Banners";
-import { Iproduct } from "../Interfaces/Product";
+import { IBanner} from "../Interfaces/banners";
+import { Iproduct } from "../Interfaces/product";
 
 
 

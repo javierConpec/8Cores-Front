@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { Iproduct, IProductFilter } from "../Interfaces/Product";
+import { Iproduct, IProductFilter } from "../Interfaces/product";
 import {
   getProduct,
   getProductByID,
   getProductBySubCategory,
   getProductsByFilter,
   getProductTopCali,
-} from "../Services/ProductService";
+} from "../Services/productService";
 
 export const useProduct = () => {
   const [products, setProducts] = useState<Iproduct[]>([]);
