@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://store8cores.onrender.com",
+        target: "https://store8cores.onrender.com/api/v1",
         changeOrigin: true,
         secure: false,
       },
