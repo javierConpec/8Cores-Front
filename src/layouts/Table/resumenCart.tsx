@@ -1,5 +1,5 @@
-import { useCart } from "../../Contexts/CartContextType";
-import Counter from "../../Components/Cart/Counter";
+import { useCart } from "../../Contexts/cartContextType";
+import Counter from "../../Components/Cart/counter";
 
 const ResumenCart = () => {
   const { cart = [], editCartItem } = useCart();

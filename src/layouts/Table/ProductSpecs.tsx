@@ -1,5 +1,5 @@
 import React from "react";
-import { Ispecs } from "../../Interfaces/Specs";
+import { Ispecs } from "../../Interfaces/specs";
 
 interface Props {
   specs: Ispecs[];
