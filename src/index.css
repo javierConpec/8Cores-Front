@@ -161,7 +161,7 @@
     border-radius: 3px;
   }
 
-  html, body,  {
+  html, body {
     height: 100%;
     margin: 0;
     display: flex;

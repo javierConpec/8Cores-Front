@@ -20,6 +20,7 @@ const InvoicePage = () => {
   if (!invoiceDetails) return <p>No se encontró la factura.</p>;
 
   if (validationLoading) return <p>Validando factura...</p>;
+  
   if (error) return <p>{error}</p>;
 
   // Función para generar el PDF

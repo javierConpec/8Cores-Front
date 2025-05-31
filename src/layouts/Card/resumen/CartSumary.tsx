@@ -84,7 +84,7 @@ const CartSummary = () => {
                 className="mt-4 bg-accent-600 text-text-100 text-xs md:text-md px-4 py-2 rounded-xl"
                 onClick={() => {
                   setQRInfo(null);
-                  window.open(`localhost:5473/profile/invoice/${qrInfo.id}`, "_blank");
+                  window.open(`localhost:5173/profile/invoice/${qrInfo.id}`, "_blank");
                   location.reload()
                 }}
               >

@@ -2,15 +2,15 @@ import { Iproduct } from "../Interfaces/product";
 import { fetchData } from "../Helpers/PeticionApi";
 
 
-export const getProduct = () => fetchData<Iproduct[]>("/products","GET");
+export const getProduct = () => fetchData<Iproduct[]>("/api/v1/products","GET");
 
-export const getProductTopCali=()=>fetchData<Iproduct[]>("/products/top-rated","GET")
+export const getProductTopCali=()=>fetchData<Iproduct[]>("/api/v1/products/top-rated","GET")
 
 export const getProductByID = async (productID: string): Promise<Iproduct | null> => {
-    const product = await fetchData<Iproduct>(`/products/${productID}`,"GET",); 
+    const product = await fetchData<Iproduct>(`/api/v1/products/${productID}`,"GET",); 
     return product ?? null;};
     
-export const getProductBySubCategory=(subCategoryId:string)=>fetchData<Iproduct[]>(`/subCategories/${subCategoryId}/products`,"GET");
+export const getProductBySubCategory=(subCategoryId:string)=>fetchData<Iproduct[]>(`/api/v1/subCategories/${subCategoryId}/products`,"GET");
 
 
 export const getProductsByFilter = async (
@@ -18,7 +18,7 @@ export const getProductsByFilter = async (
   specs: { spec_name: string; spec_value: string }[]
 ) => {
   try {
-    const response = await fetch("/products/filter", {
+    const response = await fetch("/api/v1/products/filter", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
